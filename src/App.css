@@ -1,1 +1,84 @@
+html {
+  background-color: rgb(123, 0, 0);
+  color: white;
+}
 
+a, p, h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.songCard {
+  border: white 3px solid;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  line-height: 10px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+}
+
+.songCard--playcount {
+  border: white 3px solid;
+  border-radius: 25px;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-left: 350px;
+  margin-top: -190px;
+  padding: 10px;
+}
+
+.songCard--listeners {
+  border: white 3px solid;
+  border-radius: 25px;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-left: 350px;
+  margin-top: -70px;
+  padding: 10px;
+}
+
+.songCard--lyrics {
+  font-size: 10px;
+  margin-left: 600px;
+  margin-top: -130px;
+  line-height: 20px;
+  overflow: scroll;
+}
+
+.header--container {
+  display: flex;
+  justify-content: center;
+}
+
+.header--item {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+a:link {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+a:active {
+  color: gray;
+  text-decoration: none;
+}
+
+img {
+  width: 300px;
+}
